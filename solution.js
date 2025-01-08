@@ -12,3 +12,9 @@ const items = document.getElementsByClassName("item");
 for (let index = 0; index < items.length; index++) {
     items[index].style = "border: solid;";
 }
+
+// Task 5
+document.getElementById("task5").href = "https://www.springboard.com/";
+
+// Task 6
+document.getElementById("task6").value = "DOM Master";
