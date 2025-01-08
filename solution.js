@@ -18,3 +18,14 @@ document.getElementById("task5").href = "https://www.springboard.com/";
 
 // Task 6
 document.getElementById("task6").value = "DOM Master";
+
+// Task 7
+document.getElementById("task7").classList.add("new-class");
+
+// Task 8
+const newButton = document.createElement("button");
+newButton.textContent = "Click";
+document.getElementById("task8").appendChild(newButton);
+
+// Task 9
+document.getElementById("task9").remove();
